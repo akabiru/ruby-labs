@@ -7,7 +7,12 @@ module Enumerable
 		end
 	end
 
-	def my_each_with_index
+	def my_each_with_index(&code)
+		i = 0
+		while i < self.length
+			code.call(self[i], i)
+			i += 1
+		end
 	end
 
 	def my_all?
