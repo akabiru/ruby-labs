@@ -32,7 +32,6 @@ class Array
       elsif self[mid] < num
         start = mid + 1
         finish -= 1
-        start += 1
       elsif self[mid] > num
         finish = mid - 1
         start += 1
@@ -43,7 +42,3 @@ class Array
     return result
   end
 end
-
-tenToOneThousand = [].toOneThousand
-result  = tenToOneThousand.search(880)
-p result
