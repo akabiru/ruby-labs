@@ -16,7 +16,7 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-# require_relative '../lib/enumerable'
+require_relative '../lib/enumerable'
 require_relative '../lib/binary_search'
 require_relative '../lib/caesar_cipher'
 RSpec.configure do |config|
