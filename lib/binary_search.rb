@@ -36,6 +36,7 @@ class Array
         finish = mid - 1
         start += 1
       end
+      binding.pry
       result[:count] += 1
     end
     result[:index] = -1

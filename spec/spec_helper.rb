@@ -19,6 +19,7 @@
 require_relative '../lib/enumerable'
 require_relative '../lib/binary_search'
 require_relative '../lib/caesar_cipher'
+require_relative '../lib/linked_list'
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
