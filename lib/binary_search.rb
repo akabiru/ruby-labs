@@ -19,7 +19,7 @@ class Array
     result[:length] = self.length
 
     while start <= finish do
-      mid = (finish - start) / 2
+      mid = (finish + start) / 2
       if self[mid] == num
         result[:index] = mid
         return result
@@ -36,7 +36,6 @@ class Array
         finish = mid - 1
         start += 1
       end
-      binding.pry
       result[:count] += 1
     end
     result[:index] = -1
